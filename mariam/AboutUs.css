@@ -1,0 +1,62 @@
+* {
+  font-family: "Lobster", cursive;
+  color: whitesmoke;
+}
+
+body {
+  background: url("../images/background.jpeg"), fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#aboutus {
+  font-size: xx-large;
+  font-style: italic;
+  font-weight: bolder;
+  text-align: center;
+  color: whitesmoke;
+}
+.navImg {
+  width: 70px;
+  margin: 0px;
+  padding: 0px;
+}
+.nav-item {
+  color: #09c;
+  /* background-color: aqua; */
+  margin-left: 5px;
+}
+#vision {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  z-index: 2;
+  top: 30%;
+  left: 10%;
+  width: 80%;
+  padding: 20px;
+  height: 60vh;
+  text-align: center;
+  font-size: 1.5rem;
+  overflow: hidden;
+}
+
+.imageslist {
+  position: absolute;
+  top: 100%;
+  left: 15%;
+  z-index: 0;
+}
+
+.founderPhotos {
+  width: 200px;
+  height: 200px;
+}

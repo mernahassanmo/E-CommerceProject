@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="../boot/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+  <body class="bg-secondary">
+    <br />
+    <br />
+    <fieldset>
+      <legend>Registration Form</legend>
+
+      <form action="./thanx.html" method="post" class="container">
+        <label for="userName">Name</label>
+        <input
+          class="form-control"
+          type="text"
+          placeholder="Enter Your Name"
+          name="userName"
+          id="userName"
+          required
+        />
+        <!-- <span id="invalidName">invalid name</span> -->
+        <br />
+        <br />
+        <label for="email">Email</label>
+        <input
+          class="form-control"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter Your Email"
+        />
+        <!-- <span>invalid email</span> -->
+        <br />
+        <br />
+        <label for="city">City</label>
+        <select class="form-control" name="" id="">
+          <option value="Egypt">Alexandria</option>
+          <option value="Canda">Cairo</option>
+          <option value="Germany">Minia</option>
+        </select>
+        <br />
+        <br />
+        <label for="Number">Mobile </label>
+        <input
+          placeholder="+20"
+          class="form-control"
+          type="Number"
+          name="Number"
+          id="Number"
+          required
+        />
+        <br />
+        <br />
+        <label for="Adress">Adress</label>
+        <input
+          placeholder="enter your Adress"
+          class="form-control"
+          type="text"
+          name="Adress"
+          id="Adress"
+          required
+        />
+        <br />
+        <br />
+        <!-- <label for="terms">I accept the terms and conditions</label>
+        <input class="form-check-input" type="checkbox" name="terms" id="terms" />
+        <br /> -->
+
+        <h3>Payment</h3>
+        <label for="fname">Accepted Cards</label>
+       
+        <div class="credits">
+          <input type="radio" id="visa" name="fav_language" value="visa" />
+          <label for="visa">
+            <i class="fa fa-cc-visa" style="color: navy"></i>
+          </label>
+          <input type="radio" id="amex" name="fav_language" value="amex" />
+          <label for="amex">
+            <i class="fa fa-cc-amex" style="color: blue"></i>
+          </label>
+
+          <input type="radio" id="paypal" name="fav_language" value="paypal" />
+          <label for="paypal">
+            <i class="fa fa-cc-paypal" style="color: red"></i>
+          </label>
+          <input
+            type="radio"
+            id="discover"
+            name="fav_language"
+            value="discover"
+          />
+          <label for="discover">
+            <i class="fa fa-cc-discover" style="color: orange"></i>
+          </label>
+        </div>
+
+        <br />
+        <label for="Remember">Remember me</label>
+        <input
+          class="form-check-input"
+          type="checkbox"
+          name="Remember"
+          id="Remember"
+          onclick=""
+          onchange="validate()"
+        />
+
+        <br />
+        <img class="empty" src="../images/Filled_star.png" alt="" />
+        <img class="empty" src="../images/Filled_star.png" alt="" />
+        <img class="empty" src="../images/Filled_star.png" alt="" />
+        <img class="empty" src="../images/Filled_star.png" alt="" />
+        <img class="empty" src="../images/empty_star.png" alt="" />
+
+        <br />
+        <div class="submit d-flex justify-content-end mb-3 mt-0">
+          <button type="submit" id="orderBtn" class="btn btn-primary d-flex">
+            Order Now!
+          </button>
+        </div>
+      </form>
+    </fieldset>
+
+
+    <script src="../boot/js/bootstrap.bundle.min.js"></script>
+    <script src="./loginScript.js"></script>
+  </body>
+</html>

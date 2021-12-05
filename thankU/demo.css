@@ -1,0 +1,45 @@
+*{
+  color: whitesmoke;
+  box-sizing: border-box;
+}
+
+summary{
+  text-align: center;
+  font-size: 2rem;
+}
+body{
+  font-family: "Times New Roman", Times, serif;
+  background: url("./resources/background.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+#thank {
+  font-size: 100px;
+  font-weight: bolder;
+  text-align: center;
+}
+#delivery {
+  font-size: xx-large;
+  font-weight: bolder;
+  text-align: center;
+}
+img{
+  cursor: pointer;
+}
+#demo {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+
+}
+.figurelist{
+display: flex;
+justify-content: center;
+align-items: center;
+align-self: center;
+}

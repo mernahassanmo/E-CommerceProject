@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+body{
+  background: url("../images/background.jpeg") , fixed ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-attachment: fixed;
+
+  background-color: rgba(0, 0, 0 , 0.5);
+}
+
+.navImg {
+  width: 70px;
+  margin: 0px;
+  padding: 0px;
+}
+.nav-item {
+  color: #09c;
+  /* background-color: aqua; */
+  margin-left: 5px;
+}
+.item {
+  position: relative;
+  background-color: rgb(197, 192, 192);
+  border-radius: 10px;
+  padding: 10px;
+  height: 200px;
+  transition: all, 1.5s;
+  filter: brightness(100%);
+}
+.item img {
+  object-fit: cover;
+  height: 120px;
+}
+
+#price {
+  content: "10$";
+  z-index: 5555555;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  background-color: orange;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  border-radius: 50%;
+  font-weight: 700;
+}
+.item:hover {
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  filter: brightness(60%);
+  background-blend-mode: multiply;
+  /* opacity: 0.5; */
+  transform: scale(1.1);
+}
+
+i{
+  border: none;
+}

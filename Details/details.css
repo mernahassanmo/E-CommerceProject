@@ -1,0 +1,14 @@
+*{
+  color: whitesmoke;
+}
+body{
+    background: url("../images/background.jpeg") , fixed ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    background-color: rgba(0, 0, 0 , 0.5);
+  }
+  
